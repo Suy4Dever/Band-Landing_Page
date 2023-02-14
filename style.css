@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -9,32 +10,36 @@ body {
     line-height: 1.5;
 }
 
-.navigation-list-container {
-    list-style: none;
-    font-size: 1;
-    display: flex;
+.link-container:link {
+    display: block;
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.navigation-list-container li {
-    padding: 12px 24px;
+.link-container:visited {
+    color: white;
     background-color: black;
 }
 
-.navigation-list-container li:hover {
+.link-container:hover {
+    color: black;
     background-color: #ccc;
 }
 
-.navigation-list-container li a:link {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-}
-
-.navigation-list-container li a:hover {
-    color: black;
-}
-
-.navigation-list-container li a:visited {
-    /* color: white; */
+header nav {
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.fa:hover {
+    background-color: red;
+    
 }
