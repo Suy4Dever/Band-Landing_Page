@@ -4,3 +4,37 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.navigation-list-container {
+    list-style: none;
+    font-size: 1;
+    display: flex;
+}
+
+.navigation-list-container li {
+    padding: 12px 24px;
+    background-color: black;
+}
+
+.navigation-list-container li:hover {
+    background-color: #ccc;
+}
+
+.navigation-list-container li a:link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navigation-list-container li a:hover {
+    color: black;
+}
+
+.navigation-list-container li a:visited {
+    /* color: white; */
+    background-color: black;
+}
