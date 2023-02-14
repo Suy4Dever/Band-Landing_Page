@@ -41,5 +41,31 @@ header nav {
 
 .fa:hover {
     background-color: red;
-    
+
+}
+
+.dropdown-content:link {
+    display: block;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content:visited {
+    color: black;
+    background-color: white;
+}
+
+.dropdown-content:hover {
+    background-color: #ccc;
+}
+
+.dropdown-content-container {
+    display:none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-content-container {
+    display: block;
 }
