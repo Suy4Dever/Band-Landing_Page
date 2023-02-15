@@ -122,3 +122,22 @@ nav {
     padding: 64px 16px;
     margin: 0 auto;
 }
+
+.introduction-title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.slogan {
+    margin: 1em 0px;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.introduction-content {
+    text-align: justify;
+}
