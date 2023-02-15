@@ -224,3 +224,53 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
+.buy-ticket-container {
+    width: 800px;
+    padding: 32px 0px;
+    display: flex;
+    margin: 0px auto;
+    gap: 16px;
+    flex: 0 1 0px;
+}
+
+.buy-ticket-info {
+    background-color: white;
+}
+
+.buy-ticket-info img {
+    width: 100%;
+}
+
+.location {
+    margin: 1em 0px;
+}
+
+.date {
+    opacity: 0.6;
+    margin: 1em 0px;
+}
+
+.description {
+    margin: 1em 0px;
+}
+
+.info-text {
+    padding: 0px 16px;
+}
+
+.buy-ticket {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.buy-ticket:hover {
+    background-color: #ccc;
+    color: black;
+    border: none;
+}
