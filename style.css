@@ -163,3 +163,39 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+.tour-date-container {
+    background-color: black;
+    padding: 64px 16px;
+} 
+
+.tour-date-header {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.tour-date-title {
+    font-style: italic;
+    opacity: 0.6;
+    color: #ccc;
+    margin: 1em;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.tour-date-date {
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    width: 800px;
+}
+
+.tour-date-date p {
+    opacity: 0.6;
+}
