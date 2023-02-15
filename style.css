@@ -80,6 +80,7 @@ nav {
 
 .dropdown-container:hover .dropdown-item {
     display: block;
+    z-index: 1;
 }
 
 .link-item .fa:hover {
@@ -116,6 +117,8 @@ nav {
     font-weight: bold;
 }
 
-body {
-    background-color: black;
+.introduction-container {
+    width: 800px;
+    padding: 64px 16px;
+    margin: 0 auto;
 }
