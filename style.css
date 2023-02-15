@@ -85,3 +85,29 @@ nav {
 .link-item .fa:hover {
     background-color: #ccc;
 }
+
+.band-img {
+    width: 100%;
+}
+
+.img-title-container {
+    position: relative;
+}
+
+
+.img-title-container h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.img-title-container p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+}
