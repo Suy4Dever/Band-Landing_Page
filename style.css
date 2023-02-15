@@ -274,3 +274,25 @@ nav {
     color: black;
     border: none;
 }
+
+.contact-container {
+    width: 800px;
+    padding: 64px 16px;
+    margin: 0px auto;
+}
+
+.contact-header {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.contact-title {
+    margin: 1em 0px;
+    font-style: italic;
+    opacity: 0.6;
+    text-align: center;
+}
