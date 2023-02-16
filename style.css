@@ -377,3 +377,10 @@ footer img {
     opacity: 0.6;
     margin: 1em 0px;
 }
+
+nav {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+}
