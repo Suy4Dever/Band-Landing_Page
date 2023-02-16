@@ -424,3 +424,19 @@ nav {
 .ticket-form-container p {
     margin: 1em 0px;
 }
+
+.ticket-form-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.pay-button {
+    display: block;
+    width: 100%;
+    background-color: #009688;
+    color: white;
+    margin: 16px 0px;
+    text-transform: uppercase;
+    padding: 16px 0px;
+}
