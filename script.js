@@ -1,4 +1,6 @@
 let imgList = ["/img/band-img.jpg", "/img/chicago.jpg", "/img/ny.jpg"];
+let locationList = ["Los Angeles","New York", "Chicago"];
+let descriptionList = ["We had the best time playing at Venice Beach!", "The atmosphere in New York is lorem ipsum.", "Thank you, Chicago - A night we won't forget."]
 
 let index = 0;
 setInterval(() => {
