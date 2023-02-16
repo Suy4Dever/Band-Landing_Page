@@ -6,5 +6,7 @@ let index = 0;
 setInterval(() => {
     if(index === imgList.length) index = 0;
     document.getElementsByClassName("band-img")[0].src = "http://127.0.0.1:5500" + imgList[index];
+    document.getElementsByClassName("performance-location")[0].textContent = locationList[index];
+    document.getElementsByClassName("performance-description")[0].textContent = descriptionList[index];
     index++;
-}, 2000)
+}, 3000)
