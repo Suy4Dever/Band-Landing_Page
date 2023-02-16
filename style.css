@@ -352,7 +352,28 @@ input {
     float: right;
 }
 
+footer {
+    color: black;
+    background-color: #f1f1f1;
+}
+
 footer img {
     width: 100%;
 }
 
+.link-info-container {
+    padding: 64px 16px;
+}
+
+.social-media {
+    font-size: 24px;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.author {
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.6;
+    margin: 1em 0px;
+}
