@@ -27,3 +27,10 @@ for (let i = 0; i < 3; i++) {
       )[0].style.display = "block";
     });
 }
+
+document
+  .getElementsByClassName("close-button")[0]
+  .addEventListener("click", () => {
+    document.getElementsByClassName("ticket-panel-container")[0].style.display =
+      "none";
+  });
