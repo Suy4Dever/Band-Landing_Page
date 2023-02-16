@@ -384,3 +384,7 @@ nav {
     width: 100%;
     z-index: 1;
 }
+
+.fix-hover:hover {
+    background-color: inherit;
+}
