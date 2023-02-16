@@ -24,6 +24,8 @@ for (let i = 0; i < 3; i++) {
       document.getElementsByClassName(
         "ticket-panel-container"
       )[0].style.display = "block";
+      document.getElementsByTagName("article")[0].style.filter = "blur(1.5px)";
+      document.getElementsByTagName("footer")[0].style.filter = "blur(1.5px)";
     });
 }
 
@@ -32,4 +34,6 @@ document
   .addEventListener("click", () => {
     document.getElementsByClassName("ticket-panel-container")[0].style.display =
       "none";
+    document.getElementsByTagName("article")[0].style.filter = "none";
+    document.getElementsByTagName("footer")[0].style.filter = "none";
   });
