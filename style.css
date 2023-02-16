@@ -397,6 +397,8 @@ nav {
     /* display: none; */
     width: 600px;
     margin: auto auto;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    display: none;
 }
 
 .ticket-header-container {
@@ -439,4 +441,53 @@ nav {
     margin: 16px 0px;
     text-transform: uppercase;
     padding: 16px 0px;
+    border: none;
+    font-size: 15px;
+}
+
+.pay-button:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.footer-form-container {
+    margin: 16px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-button {
+    display: block;
+    background-color: #f44336;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    font-size: 15px;
+}
+
+.close-button:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.help:link {
+    color: #2196F3;
+}
+
+.help:visited {
+    color: #2196F3;
+}
+
+.help:hover {
+    color: #2196F3;
+}
+
+.ticket-form-container {
+    padding-bottom: 8px;
+}
+
+.footer-form-container {
+    margin-bottom: 0px;
 }
