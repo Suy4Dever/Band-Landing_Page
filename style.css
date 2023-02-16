@@ -351,3 +351,8 @@ input {
 .submit-button {
     float: right;
 }
+
+footer img {
+    width: 100%;
+}
+
